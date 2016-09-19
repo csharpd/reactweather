@@ -4,7 +4,7 @@
 2. To install the required dependencies run `npm install`
 3. Check that the root directory now has a node_modules directory. This should contain a react folder, a react-dom folder and all the corresponding dependacies
 4. Run 'npm run production' in the command line and check that a *dist* folder gets created. This should contain an index.html file and a index_bundle.js file.
-5. Rack up locally by running `npm run production` in the command line. You should see **Hello Friend** at `http://localhost:8080/` 💥
+5. Rack up locally by running `npm run start` in the command line. You should see **Hello Friend** at `http://localhost:8080/` 💥
 
 
 ## OR 
@@ -104,6 +104,8 @@ ReactDOM.render(
 <HelloWorld />, document.getElementById(‘app’)
 )
 ```
+
+14. Rack up locally by running `npm run start` in the command line. You should see **Hello Friend** at `http://localhost:8080/` 💥
 
 
 
