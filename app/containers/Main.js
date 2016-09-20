@@ -1,11 +1,17 @@
 var React = require('react');
+var GetCityContainer = require('./GetCityContainer');
 
-// do this.props.children so that any child routes defined will appear
-var HelloWorld = React.createClass({
+var styles = {
+  container: {
+    width: '100%',
+    height: '92%'
+  }
+}
+
+var Main = React.createClass({
   render: function () {
-  	console.log(this.props)
     return (
-      <div>
+      <div style={styles.container}>
         <h1>Main.js Header</h1>
         {this.props.children}
       </div>
@@ -13,4 +19,4 @@ var HelloWorld = React.createClass({
   }
 })
 
-module.exports = HelloWorld;
+module.exports = Main;
