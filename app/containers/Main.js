@@ -14,18 +14,17 @@ var styles = {
     color: '#fff',
     padding: 5,
   }
-
 }
 
 var Main = React.createClass({
   render: function () {
     return (
       <div style={styles.container}>
-      	<div style={styles.header}>
-	        <h2 style={{margin: 0}}>React Weather</h2>
-	        <GetCityContainer direction='row' />
-	    </div>
-	    {this.props.children}
+        <div style={styles.header}>
+          <h2 style={{margin: 0}}>Clever Title</h2>
+          <GetCityContainer direction='row' />
+        </div>
+        {this.props.children}
       </div>
     )
   }
