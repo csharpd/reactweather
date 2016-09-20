@@ -107,6 +107,8 @@ ReactDOM.render(
 
 14. Rack up locally by running `npm run start` in the command line. You should see **Hello Friend** at `http://localhost:8080/` 💥
 
+15. Once you have done Routes - `npm install react-router`
+
 
 
 
