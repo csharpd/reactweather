@@ -3,6 +3,9 @@ var PropTypes = React.PropTypes;
 var GetCity = require('../components/GetCity');
 
 var GetCityContainer = React.createClass({
+  contextTypes: {
+    router: React.PropTypes.object.isRequired
+  },
   getDefaultProps: function () {
     return {
       direction: 'column'
